@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="srpingLegacy:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>srpingLegacy</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="srpingLegacy-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="srpingLegacy:war exploded" />
+    </root>
+  </artifact>
+</component>
